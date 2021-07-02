@@ -3,7 +3,7 @@
 ---
 ---
 
-@import "{{ minimal }}";
+@import "{{ jekyll-theme-minimal }}";
 
 .text                      /* texto cuerpo principal (si no especificado en "div.main div.bodytext" abajo) */
 { font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
