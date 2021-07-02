@@ -2,31 +2,31 @@
 ---
 
 @import "{{ site.theme }}";
-.text                      /* texto cuerpo principal (si no especificado en "div.main div.bodytext" abajo) */
+body                      /* texto cuerpo principal (si no especificado en "div.main div.bodytext" abajo) */
 { font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
 color: rgb(20, 30, 80);
 font-weight: 400;
 font-size: 9pt;
 }
-.a:link                      /* links standard, en cuerpo principal, etc. */
+a:link                      /* links standard, en cuerpo principal, etc. */
 { font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
 color: rgb(255, 0, 0);
 font-weight: 400;
 text-decoration: none;
 }
-.a:visited                   /* links visitados standard, en cuerpo principal, etc. */
+a:visited                   /* links visitados standard, en cuerpo principal, etc. */
 { font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
 color: rgb(255, 0, 0);
 font-weight: 400;
 text-decoration: none;
 }
-.a:hover                     /* "hover" para links standard, en cuerpo principal, etc. */ 
+a:hover                     /* "hover" para links standard, en cuerpo principal, etc. */ 
 { font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
 color: rgb(255, 0, 0);
 font-weight: 400;
 text-decoration: none;
 }
-.texth1                       /* titulo principal web (si no link) */
+h1, h2, h3, h4, h5, h6                     /* titulo principal web (si no link) */
 { color: rgb(20, 30, 80);
 font-weight: 400;
 font-family:'NovecentowideLight', 'Andale Mono', monospace;
@@ -35,114 +35,5 @@ text-transform: uppercase;
 letter-spacing: 16px; 
 text-decoration: none;
 }
-.linkh1                       /* titulo web (si link) */
-{ 
-font-family: 'NovecentowideLight', 'Avenir', 'Lucida Grande', 'Gill Sans', 'Andale Mono', monospace;
-text-decoration: none;        /* none */
-color: rgb(20, 30, 80);       /* rgb(20, 30, 80) */
-font-size: 18pt;              /* 18pt */
-text-transform: uppercase;    /* uppercase */
-letter-spacing: 33px;         /* 18px */
-font-weight: 400;
-}
-.texth2                       /* titulo cuerpo texto principal (si no link) */
-{ color: rgb(255, 0, 0);
-font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
-font-size: 10.5pt;
-font-weight: 400;
-text-transform: uppercase;
-}
-.linkh2                       /* titulo cuerpo texto principal (si link) */
-{ font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
-text-decoration: none;
-color: rgb(80, 80, 80);
-}
-.texth3                       /* subtitulo cuerpo texto principal (si no link)*/ 
-{ color: rgb(20, 30, 80);
-font-style: italic;
-font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
-font-size: 9pt;
-}
-.texth4                       /* subsubtitulo cuerpo texto principal (si no link) */ 
-{ color: rgb(20, 30, 80);
-font-style: normal;
-font-family: 'LatinModernMono10Regular', 'Courier New', monospace;
-font-size: 8pt;
-font-weight: 400;
-}
-.textnav {                      /* menu navegacion (si no link) */
-color: rgb(255,0, 0);
-font-weight: normal;
-font-family: 'Andale Mono', 'NovecentowideLight', 'LatinModernMono10Regular', 'Courier New', monospace;
-font-size: 10pt;
-text-transform:uppercase;
-}
-.linknav {                      /* menu navegacion (si link) */
-font-family: 'Andale Mono', 'NovecentowideLight', 'LatinModernMono10Regular', 'Courier New', monospace;
-color: rgb(255,0, 0);
-font-weight: normal;
-font-size: 10pt;
-text-decoration: none;
-text-transform:uppercase;
-}
-.initextnav {                       /* menu idioma (si no link) */
-font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
-color: rgb(240, 240, 240);
-text-decoration: none;
-text-transform:uppercase;
-background-color: rgb(210,0,0);
-padding-left: 6px;                         /* 6px */
-padding-right: 6px;                        /* 6px */
-border: 1px solid rgb(255,255,255);
-font-size: 11pt;
-}
-.inilinknav {                        /* menu idioma (si link) */
-font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
-color: rgb(255,255, 255);
-text-decoration: none;
-text-transform:uppercase;
-background-color: rgb(255,0,0);
-padding-left: 6px;                         /* 6px */
-padding-right: 6px;                        /* 6px */
-border: 1px solid rgb(255,255,255);
-font-size: 11pt;
-}
-ul {                     /* estilo listas */
-list-style: none;
-margin-left: 0px;
-padding-left: 2em;
-text-indent: -1em;
-font-size: 10pt;	
-}
-.slink                    /* links creditos, actualizacion, etc. */
-{ 
-font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
-color: rgb(20, 30, 80);
-font-weight: 400;
-text-decoration: none;
-}
-.inpage                   /* links externos pagina "contacto", "otros enlaces", etc. */
-{ 
-color: rgb(20, 30, 80);
-font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
-font-weight: 400;
-text-decoration:none;
-border-bottom: 1px dashed rgb(255,0,0);      /* 1px dashed rgb(0,200,0) */
-}  
-.linkmail                 /* links correo pagina "contacto" */
-{ font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
-text-decoration: none;
-color: rgb(255,0,0);
-}
-.linklist                 /* links en listas (elementos lista) */
-{ font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
-text-decoration: none;
-color: rgb(20, 30, 80);
-border-bottom: 1px dashed rgb(255,0,0);    /* border: 1px dashed rgb(0,200,0) */
-padding-left: 4px;
-padding-right: 4px;
-}
-
-
 
 
