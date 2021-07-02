@@ -5,7 +5,7 @@
 body                      /* texto cuerpo principal (si no especificado en "div.main div.bodytext" abajo) */
 { font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
 color: rgb(20, 30, 80);
-font-weight: 400;
+font-weight: 600;
 font-size: 9pt;
 }
 a:link                      /* links standard, en cuerpo principal, etc. */
@@ -27,13 +27,37 @@ font-weight: 400;
 text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6                     /* titulo principal web (si no link) */
-{ color: rgb(20, 30, 80);
+{ color: rgb(255, 0, 0);
 font-weight: 400;
-font-family:'NovecentowideLight', 'Andale Mono', monospace;
+font-family: 'Andale Mono', 'LatinModernMono10Regular', 'Courier New', monospace;
 font-size: 21pt;
 text-transform: uppercase;
 letter-spacing: 16px; 
 text-decoration: none;
+}
+
+h1                    /* titulo principal web (si no link) */
+{ font-size: 21pt;
+}
+
+h2                    /* titulo principal web (si no link) */
+{ font-size: 18pt;
+}
+
+h3                    /* titulo principal web (si no link) */
+{ font-size: 16pt;
+}
+
+h4                    /* titulo principal web (si no link) */
+{ font-size: 13pt;
+}
+
+h5                    /* titulo principal web (si no link) */
+{ font-size: 11pt;
+}
+
+h6                    /* titulo principal web (si no link) */
+{ font-size: 9pt;
 }
 
 
