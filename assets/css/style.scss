@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 body                      /* texto cuerpo principal (si no especificado en "div.main div.bodytext" abajo) */
-{ font-family: monospace, 'LatinModernMono10Regular', 'Courier New', 'Andale Mono';
+{ font-family: 'menlo', monospace, 'LatinModernMono10Regular', 'Courier New', 'Andale Mono';
 color: rgb(20, 30, 80);
 font-weight: 500;
 font-size: 10pt;
