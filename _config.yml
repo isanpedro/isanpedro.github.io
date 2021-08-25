@@ -1,13 +1,10 @@
 theme: jekyll-theme-minimal
 title:  /// iñaki /<br> san&nbsp;pedro //////
-description: I&ntilde;aki San Pedro (/i'ɲakɪ 'sam 'peðro/)
-#<body>
-#I&ntilde;aki San Pedro (/i'ɲakɪ 'sam 'peðro/)
-#<br>
-#Associate Professor
-#<br>
-#Department of Logic and Theoretical Philosophy
-#<br> 
-#Complutense University of Madrid
-#</body>
+description: I&ntilde;aki San Pedro <br> (/i'ɲakɪ 'sam 'peðro/)
+<br>
+Associate Professor
+<br>
+Department of Logic and Theoretical Philosophy
+<br> 
+Complutense University of Madrid
 # logo: isanpedro/arxiu/ventana.jpg
